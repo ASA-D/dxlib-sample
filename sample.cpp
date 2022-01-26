@@ -19,6 +19,3 @@ int WINAPI WinMain( HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLin
 
     return 0 ;            // ソフトの終了
 }
-© 2022 GitHub, Inc.
-Terms
-Privacy
