@@ -6,7 +6,7 @@ int WINAPI WinMain( HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLin
 
     if( DxLib_Init() == -1 )        // ＤＸライブラリ初期化処理
     {
-         return -1;        // エラーが起きたら直ちに終了
+         return -1;        // エラーが起きたら直ちに終了(-1で異常終了する)
     }
 
     Cr = GetColor( 255 , 255 , 255 ) ;    // 白色の値を取得
