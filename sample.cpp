@@ -1,4 +1,4 @@
-#include "DxLib.h"　//dxlib.hをインクルード
+#include "DxLib.h"　//dxlib.hをインクルード。DXライブラリプログラムの最初にこれを書く。
 
 int WINAPI WinMain( HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow ) //Ç言語でウィンドウアプリケーションを作るためのおまじないみたいなもの
 {
